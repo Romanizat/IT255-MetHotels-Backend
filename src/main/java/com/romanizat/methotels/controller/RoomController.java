@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/rooms")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
 public class RoomController {
     private final RoomService roomService;
 

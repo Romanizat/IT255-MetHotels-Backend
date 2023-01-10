@@ -34,8 +34,6 @@ public class Room implements Serializable {
     private Boolean airCondition;
     @Column(name = "minibar")
     private Boolean miniBar;
-    @Column(name = "no_of_nights")
-    private Integer noOfNights;
 
     @Override
     public boolean equals(Object o) {
