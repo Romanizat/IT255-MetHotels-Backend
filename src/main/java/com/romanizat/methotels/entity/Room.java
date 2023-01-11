@@ -21,7 +21,7 @@ public class Room implements Serializable {
     @Column(name = "id")
     private Integer id;
     @Column(name = "number")
-    private Integer number;
+    private Integer roomNumber;
     @Column(name = "floor")
     private Integer floor;
     @Column(name = "description")
